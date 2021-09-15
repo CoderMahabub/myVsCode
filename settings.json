@@ -15,7 +15,6 @@
     },
     "editor.defaultFormatter": "vscode.emmet"
 } */
-
 {
   // editor
   "editor.fontSize": 18,
@@ -56,7 +55,7 @@
   //terminal
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "Fira Code, Poppins",
+  "terminal.integrated.fontFamily": "monospace",
   "workbench.iconTheme": "vscode-icons",
   // terminal customization
   "workbench.colorCustomizations": {
@@ -80,5 +79,6 @@
     "terminal.ansiRed": "#FB543F",
     "terminal.ansiWhite": "#A89984",
     "terminal.ansiYellow": "#FAC03B"
-  }
+  },
+  "workbench.colorTheme": "Visual Studio Dark"
 }
