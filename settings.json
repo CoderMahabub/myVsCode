@@ -1,9 +1,9 @@
-/* Default Previous Settings */
-/* {
+/* My Prefered VSCode Settings*/
+ {
     "editor.formatOnSave": true,
     "editor.wordWrap": "on",
     "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
+    "workbench.colorTheme": "teacher theme dark",
     "liveServer.settings.donotVerifyTags": true,
     "window.zoomLevel": 1,
     "workbench.iconTheme": "file-icons",
@@ -13,52 +13,15 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "editor.defaultFormatter": "vscode.emmet"
-} */
-{
-  // editor
-  "editor.fontSize": 18,
-  "editor.fontFamily": "Fira Code, Poppins",
-  "editor.fontLigatures": true,
-  "editor.wordWrap": "on",
-  "editor.minimap.enabled": true,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "comment",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      }
-    ]
-  },
-  // cursor
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.cursorBlinking": "expand",
-  // config related to code formatting
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
-  },
-  "[javascriptreact]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.tslint": true,
-    "source.organizeImports": true
-  },
-  "eslint.alwaysShowStatus": true,
-  //terminal
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "monospace",
-  "workbench.iconTheme": "vscode-icons",
-  // terminal customization
-  "workbench.colorCustomizations": {
+    "editor.defaultFormatter": "vscode.emmet",
+    "editor.fontSize": 18,
+    "editor.cursorBlinking": "expand",
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    // terminal customization
+    "workbench.colorCustomizations": {
     "terminal.background": "#1D2021",
     "terminal.foreground": "#A89984",
     "terminalCursor.background": "#A89984",
@@ -79,6 +42,5 @@
     "terminal.ansiRed": "#FB543F",
     "terminal.ansiWhite": "#A89984",
     "terminal.ansiYellow": "#FAC03B"
-  },
-  "workbench.colorTheme": "Visual Studio Dark"
+  }
 }
