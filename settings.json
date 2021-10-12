@@ -1,47 +1,48 @@
 /* My Prefered VSCode Settings*/
- {
-    "editor.formatOnSave": true,
-    "editor.wordWrap": "on",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
-    "window.zoomLevel": 1,
-    "workbench.iconTheme": "file-icons",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "editor.defaultFormatter": "vscode.emmet",
-    "editor.fontSize": 18,
-    "editor.cursorBlinking": "expand",
-    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
-    },
-    // terminal customization
-    "workbench.colorCustomizations": {
-    "terminal.background": "#1D2021",
-    "terminal.foreground": "#A89984",
-    "terminalCursor.background": "#A89984",
-    "terminalCursor.foreground": "#A89984",
-    "terminal.ansiBlack": "#1D2021",
-    "terminal.ansiBlue": "#0D6678",
-    "terminal.ansiBrightBlack": "#665C54",
-    "terminal.ansiBrightBlue": "#0D6678",
-    "terminal.ansiBrightCyan": "#8BA59B",
-    "terminal.ansiBrightGreen": "#95C085",
-    "terminal.ansiBrightMagenta": "#8F4673",
-    "terminal.ansiBrightRed": "#FB543F",
-    "terminal.ansiBrightWhite": "#FDF4C1",
-    "terminal.ansiBrightYellow": "#FAC03B",
-    "terminal.ansiCyan": "#8BA59B",
-    "terminal.ansiGreen": "#95C085",
-    "terminal.ansiMagenta": "#8F4673",
-    "terminal.ansiRed": "#FB543F",
-    "terminal.ansiWhite": "#A89984",
-    "terminal.ansiYellow": "#FAC03B"
+{
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "window.zoomLevel": 1,
+  "workbench.iconTheme": "file-icons",
+  "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "workbench.colorTheme": "teacher theme dark",
-  "security.workspace.trust.untrustedFiles": "open"
+  "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.defaultFormatter": "vscode.emmet",
+  "editor.fontSize": 18,
+  "editor.cursorBlinking": "expand",
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // terminal customization
+  "workbench.colorCustomizations": {
+  "terminal.background": "#1D2021",
+  "terminal.foreground": "#A89984",
+  "terminalCursor.background": "#A89984",
+  "terminalCursor.foreground": "#A89984",
+  "terminal.ansiBlack": "#1D2021",
+  "terminal.ansiBlue": "#0D6678",
+  "terminal.ansiBrightBlack": "#665C54",
+  "terminal.ansiBrightBlue": "#0D6678",
+  "terminal.ansiBrightCyan": "#8BA59B",
+  "terminal.ansiBrightGreen": "#95C085",
+  "terminal.ansiBrightMagenta": "#8F4673",
+  "terminal.ansiBrightRed": "#FB543F",
+  "terminal.ansiBrightWhite": "#FDF4C1",
+  "terminal.ansiBrightYellow": "#FAC03B",
+  "terminal.ansiCyan": "#8BA59B",
+  "terminal.ansiGreen": "#95C085",
+  "terminal.ansiMagenta": "#8F4673",
+  "terminal.ansiRed": "#FB543F",
+  "terminal.ansiWhite": "#A89984",
+  "terminal.ansiYellow": "#FAC03B"
+},
+"workbench.colorTheme": "teacher theme dark",
+"security.workspace.trust.untrustedFiles": "open",
+"javascript.updateImportsOnFileMove.enabled": "always"
 }
